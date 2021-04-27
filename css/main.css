@@ -1,0 +1,56 @@
+body
+    {
+background-color: aqua;
+    }
+.container
+    {
+display: inline-block;
+width: 800px;
+margin-top: 100px;
+margin-left: calc((100% - 800px)/ 2);
+background-color: yellow;
+    }
+.left-column
+    {
+
+width: 40%;
+float: left;
+background-color: green;
+
+    }
+.main-title
+    {
+    display: inline-block;
+    width: 100%;
+    color: white;
+
+
+    }
+.bottom-link
+    {
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+    }
+.link
+    {
+        color: #fff;
+    }
+.symbol
+    {
+
+    }
+.right-column
+    {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+.close
+    {
+
+    }
+.form
+    {
+
+    }
