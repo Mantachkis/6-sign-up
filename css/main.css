@@ -10,29 +10,44 @@ body * {
 body
     {
 background-color: aqua;
+position: relative;
+
+    }
+    .background{
+        background-image: url(../img/hill.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+filter: blur(20px);
     }
 .container
     {
 
         display: inline-block;
         width: 800px;
-        margin-top: 100px;
-        margin-left: calc((100% - 800px) / 2);
-        background-color: yellow;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        
+       
     }
 .left-column
     {
 padding: 40px;
 width:40% ;
-height: 400px;
+
 float: left;
-background-color: green;
+
 box-sizing: border-box;
 background-image: url(../img/hill.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
+position: absolute;
+top: 40px;
+bottom: 40px;
     }
 .main-title
     {
@@ -45,8 +60,12 @@ background-position: center;
 .bottom-link
     {
         display: inline-block;
-        width: 100%;
         color: #fff;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+        right: 40px;
+
     }
 .link
     {
@@ -59,10 +78,10 @@ background-position: center;
 .right-column
     {
         width: 60%;
-        float: left;
+        float: right;
         padding: 60px;
         background-color: #fff;
-        position: relative;
+        
         
     }
 .close
@@ -70,10 +89,13 @@ background-position: center;
         display: inline-block;
         width: 60px;
         height: 60px;
-        background-color: blue;
+       
         position: absolute;
         top: 0;
         right: 0;
+        font-size: 30px;
+        text-align: center;
+        line-height: 53pxS;
         
 
     }
